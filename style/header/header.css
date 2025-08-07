@@ -1,0 +1,45 @@
+.header {
+    padding: 42px 225px 47px 225px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-end: 67px;
+}
+
+.logo {
+    margin-block-start: 3px;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: "LatoExtraBold", sans-serif;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-block-start: 5px;
+    color: #4B5563;
+    
+}
+
+.link {
+    color: #4A90E2;
+    cursor: pointer;
+}
+
+.button {
+    min-inline-size: 202px;
+    min-block-size: 45px;
+    background-color: #4A90E2;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 20px; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}

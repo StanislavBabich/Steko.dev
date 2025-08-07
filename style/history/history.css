@@ -1,0 +1,135 @@
+.history {
+    padding: 0 225px;
+    margin-block-end: 171px;
+}
+
+.place__preview {
+    display: flex;
+    gap: 16px;
+}
+
+.review__block {
+    width: 612px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    padding: 36px 82px 44px 32px;
+    margin-block-start: 38px;
+    gap: 11px;
+    min-block-size: 524px;
+}
+
+.about__client {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.client__logo-container {
+    width: 80px;
+    height: 80px;
+    color: #FFFFFF;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.client__logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.review__name-company {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 3px;
+}
+
+.company__description {
+    font-weight: 400;
+    font-size: 20px;
+    color: #4B5563;
+    font-family: "InterRegular", sans-serif;
+    margin-bottom: -1px;
+}
+
+.about__description {
+    font-size: 20px;
+    font-weight: 400;
+    color: #4B5563;
+    font-family: "LatoRegular", sans-serif;
+}
+
+.wtf__container {
+    min-inline-size: 160px;
+    min-block-size: 90px;
+    border-radius: 12px;
+    background-color: #EDEEF0;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.wtf {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.review {
+    min-inline-size: 100%;
+    border-radius: 16px;
+    background-color: #EDEEF0;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    padding: 14px 16px 15px 16px;
+    font-family: "LatoRegular", sans-serif;
+}
+
+.client__name {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.client__position {
+    font-weight: 400;
+    font-size: 14px;
+    color: #4B5563;
+}
+
+.review__text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4B5563;
+    margin-top: 17px;
+}
+
+.platform__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    column-gap: 16px;
+    row-gap: 9px;
+    color: #4B5563;
+    font-family: "LatoRegular", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.platforms__container {
+    padding: 6px 11px 8px 8px;
+    display: flex;
+    gap: 11px;
+    background-color: #EDEEF0;
+    border-radius: 16px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    min-inline-size: 115px;
+    border: none;
+    cursor: pointer;
+}
+
+.platform__image {
+    width: 22px;
+    height: 20px;
+}

@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"),
+    url("Inter-Variable.woff2") format("woff2 supports variations"),
+    url("Inter-Variable.woff2") format("woff2-variations");
+  font-weight: 400 785;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LatoBold";
+  src: url("Lato-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "LatoExtraBold";
+  src: local("LatoExtraBold"),
+       url("Lato-ExtraBold.ttf") format("truetype");
+  font-weight: 400 785;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "LatoRegular";
+  src: local("Lato Regular"),
+       url("Lato-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "InterRegular";
+  src: url("Inter-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,28 @@
+.title__animated {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out; 
+}
+
+.title__animated.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.review__block-animated {
+  opacity: 0;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.review__block-animated:nth-child(odd) {
+  transform: translateX(-50px);
+}
+
+.review__block-animated:nth-child(even) {
+  transform: translateX(50px);
+}
+
+.review__block-animated.active {
+  opacity: 1;
+  transform: translateX(0);
+}

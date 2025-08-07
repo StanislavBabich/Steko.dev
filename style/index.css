@@ -1,0 +1,11 @@
+@import url('./global.css');
+@import url('../fonts/fonts.css');
+@import url('./header/header.css');
+@import url('./header/header_animated.css');
+@import url('./about/about.css');
+@import url('./about/about_animated.css');
+@import url('./history/history.css');
+@import url('./history/history_animated.css');
+@import url('./work_process/work_process.css');
+@import url('./work_process/work_process_animated.css');
+@import url('./why/why.css');
